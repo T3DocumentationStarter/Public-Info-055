@@ -21,9 +21,9 @@
 .. The following, first section (= headline) is the 'Document Title'.
 
 
-======================
-Ext doc
-======================
+=======================
+Distribution "pizpalue"
+=======================
 
 
 .. The following is 'field list' which is rendered as a horizontal table.
