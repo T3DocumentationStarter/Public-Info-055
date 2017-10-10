@@ -9,7 +9,7 @@
    so we can change the definition at a single place. Use the relative path to the Includes.txt file,
    which may look as well like ../../../Includes.txt for a deeply nested source file.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
 .. Usually we define 'php' as default highlight language in Includes.txt.
