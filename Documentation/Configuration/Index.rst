@@ -40,13 +40,13 @@ Properties
 
 .. container:: ts-properties
 
-	=========================== ===================================== ======================= ====================
-	Property                    Data type                             :ref:`t3tsref:stdwrap`  Default
-	=========================== ===================================== ======================= ====================
-	allWrap_                    :ref:`t3tsref:data-type-wrap`         yes                     :code:`<div>|</div>`
-	`subst\_elementUid`_        :ref:`t3tsref:data-type-boolean`      no                      0
-	wrapItemAndSub_             :ref:`t3tsref:data-type-wrap`
-	=========================== ===================================== ======================= ====================
+   =========================== ===================================== ======================= ====================
+   Property                    Data type                             :ref:`t3tsref:stdwrap`  Default
+   =========================== ===================================== ======================= ====================
+   allWrap_                    :ref:`t3tsref:data-type-wrap`         yes                     :code:`<div>|</div>`
+   `subst\_elementUid`_        :ref:`t3tsref:data-type-boolean`      no                      0
+   wrapItemAndSub_             :ref:`t3tsref:data-type-wrap`
+   =========================== ===================================== ======================= ====================
 
 
 Property details
