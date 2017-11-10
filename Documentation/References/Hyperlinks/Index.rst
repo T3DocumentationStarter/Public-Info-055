@@ -44,6 +44,11 @@ Result:
 See `buildinfo <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-055/_buildinfo/>`__
 
 
+Internal links
+==============
+
+To link to a internal text use ':ref:`text <anchor without underscore>`'
+Example: Have a look at the :ref:`git related documentation <git>`.
 
 
 A named link
@@ -103,6 +108,3 @@ __ https://docs.typo3.org/
 
 Go here__ first, then look at `the extensions`__ and don't forget to visit
 the documentation__.
-
-
-
