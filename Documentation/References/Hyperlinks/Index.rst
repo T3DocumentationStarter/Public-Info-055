@@ -47,7 +47,6 @@ See `buildinfo <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationSta
 Internal links
 ==============
 
-To link to a internal text use ':ref:`text <anchor without underscore>`'
 Example: Have a look at the :ref:`git related documentation <git>`.
 
 

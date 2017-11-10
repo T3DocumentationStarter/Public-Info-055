@@ -7,7 +7,7 @@ References
 ==========
 
 :Rendered:        |today|
-:Buildinfo:       `buildinfo <buildinfo>`
+:Buildinfo:       :ref:`buildinfo <buildinfo>`
 :Others:          `Who else has a starter project?`__
 
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-001/TeachingDocs/StarterManuals/
