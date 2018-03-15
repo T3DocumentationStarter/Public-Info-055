@@ -2,48 +2,48 @@
 
 
 .. Usually we define 'php' as default highlight language in Includes.txt.
-   With the following 'highlight' directive we switch to reStructuredText as default highlight language.
+With the following 'highlight' directive we switch to reStructuredText as default highlight language.
 
 .. highlight:: rst
 
 .. _start:
 
 ======================
-Extension name
+pizpalue
 ======================
 
 .. only:: html
 
     :Classification:
-        <Extension key>
+		        pizpalue
 
-    :Version:
-        |release|
+		    :Version:
+		        |release|
 
     :Language:
-        en
+		        en
 
-    :Description:
-        What's it about?
+		    :Description:
+		        Manual covering TYPO3 extension pizpalue
 
-    :Keywords:
-        Keyword1, Keyword2
+		    :Keywords:
+		        distribution, bootstrap, bootstrap_package
 
-    :Copyright:
-        2017
+		    :Copyright:
+		        2017
 
-    :Author:
-        Roman Büchler
+		    :Author:
+		        Roman Büchler
 
-    :Email:
-        rb@synac.com
+		    :Email:
+		        rb@buechler.pro
 
-    :License:
-        This document is published under the Open Content License
-        available from http://www.opencontent.org/opl.shtml
+		    :License:
+		        This document is published under the Open Content License
+		        available from http://www.opencontent.org/opl.shtml
 
     :Rendered:
-        |today|
+		        |today|
 
     The content of this document is related to TYPO3,
     a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
@@ -52,14 +52,14 @@ Extension name
 **Table of Contents**
 
 .. toctree::
-   :maxdepth: 3
-   :titlesonly:
+:maxdepth: 3
+	   :titlesonly:
 
-   Introduction/Index
-   User/Index
-   Administrator/Index
-   Configuration/Index
-   Developer/Index
-   References/Index
+		   Introduction/Index
+		   User/Index
+		   Administrator/Index
+		   Configuration/Index
+		   Developer/Index
+		   References/Index
 
 
