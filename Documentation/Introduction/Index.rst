@@ -63,17 +63,23 @@ if not relevant.
 
    Website landing page
 
+----
+
 .. figure:: ../Images/Introduction/PizPalue_NewsPage.jpg
    :width: 500px
    :alt: Page embedding news
 
    Page embedding news
 
+----
+
 .. figure:: ../Images/Introduction/PizPalue_PizPalue_ScrollAnimationPage.jpg
    :width: 500px
    :alt: Page embedding scroll animated content
 
    Page embedding scroll animated content
+
+----
 
 .. figure:: ../Images/Introduction/PizPalue_FlexContentWidthPage.jpg
    :width: 500px
