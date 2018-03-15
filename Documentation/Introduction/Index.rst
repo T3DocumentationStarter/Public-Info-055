@@ -73,7 +73,7 @@ if not relevant.
 
 ----
 
-.. figure:: ../Images/Introduction/PizPalue_PizPalue_ScrollAnimationPage.jpg
+.. figure:: ../Images/Introduction/PizPalue_ScrollAnimationPage.jpg
    :width: 500px
    :alt: Page embedding scroll animated content
 
