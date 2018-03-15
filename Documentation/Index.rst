@@ -1,61 +1,65 @@
 .. include:: Includes.txt
 
 
+.. Usually we define 'php' as default highlight language in Includes.txt.
+With the following 'highlight' directive we switch to reStructuredText as default highlight language.
+
+.. highlight:: rst
+
 .. _start:
 
-=============================================================
+======================
 pizpalue
-=============================================================
+======================
 
 .. only:: html
 
-	:Classification:
-		<extension key>
+    :Classification:
+		        pizpalue
 
-	:Version:
-		|release|
+		    :Version:
+		        |release|
 
-	:Language:
-		en
+    :Language:
+		        en
 
-	:Description:
-		Manual covering TYPO3 extension <pizpalue
+		    :Description:
+		        Manual covering TYPO3 extension pizpalue
 
-	:Keywords:
-		distribution, bottstrap_package
+		    :Keywords:
+		        distribution, bootstrap, bootstrap_package
 
-	:Copyright:
-		2017
+		    :Copyright:
+		        2017
 
-	:Author:
-		Roman Büchler
+		    :Author:
+		        Roman Büchler
 
-	:Email:
-		rb@synac.com
+		    :Email:
+		        rb@buechler.pro
 
-	:License:
-		This document is published under the Open Publication License
-		available from http://www.opencontent.org/openpub/
+		    :License:
+		        This document is published under the Open Content License
+		        available from http://www.opencontent.org/opl.shtml
 
-	:Rendered:
-		|today|
+    :Rendered:
+		        |today|
 
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <https://typo3.org/>`__.
+    The content of this document is related to TYPO3,
+    a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
 
 
-	**Table of Contents**
+**Table of Contents**
 
 .. toctree::
-	:maxdepth: 3
-	:titlesonly:
+:maxdepth: 3
+	   :titlesonly:
 
-	Introduction/Index
-	User/Index
-	Administrator/Index
-	Configuration/Index
-	Developer/Index
-	KnownProblems/Index
-	ToDoList/Index
-	ChangeLog/Index
-	Links
+		   Introduction/Index
+		   User/Index
+		   Administrator/Index
+		   Configuration/Index
+		   Developer/Index
+		   References/Index
+
+
