@@ -35,7 +35,7 @@ The add new content element wizards shows a tab called "Grid Elements":
 .. hint::
    Editing the "Appearance"-properties from a grid element doesn't alter the
    rendering hence the selections for "Frame" or "Space Before" have no influence
-   from the contents appearance in the page.
+   to the contents appearance in the page.
 
    .. figure:: ../Images/User/GridElements_Appearance.jpg
       :alt: Appearance settings for grid elements don't change the rendering
@@ -44,7 +44,7 @@ The add new content element wizards shows a tab called "Grid Elements":
 
 .. tip::
    To influence the rendering the grid elements might be wrapped by a
-   container grid element. The container grid elements allow ro define
+   container grid element. The container grid elements allow to define
    additional classes.
 
 
@@ -102,7 +102,7 @@ curly brackets within the editor (`see example <https://www.pizpalue.buechler.pr
 Flexible content width
 ======================
 
-To create content spanning the entire page width (´see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>´__)
+To create content spanning the entire page width (`see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>`__)
 one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
