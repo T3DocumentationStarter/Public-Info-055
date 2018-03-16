@@ -24,7 +24,9 @@ pizpalue
 		en
 
 	:Description:
-		Provides information regarding distribution pizpalue
+		This extension installs a bootstrap based web site with news management.
+		It is tailored for the Swiss market featuring German as default language
+		and additional translations to French and English.
 
 	:Keywords:
 		distribution, bootstrap, bootstrap_package
@@ -56,3 +58,4 @@ pizpalue
 	:maxdepth: 1
 
 	Introduction/Index
+	User/Index
