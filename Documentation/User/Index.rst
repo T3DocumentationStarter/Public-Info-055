@@ -67,7 +67,7 @@ render the image on top of the text (`see example <https://www.pizpalue.buechler
 Custom frames
 =============
 
-Additional frames can be selected for content elements (`see example <https://www.pizpalue.buechler.pro/das-plus/news/>`__):
+Additional frames can be selected for content elements (`see example <https://www.pizpalue.buechler.pro/das-plus/stilergaenzungen/>`__):
 
 .. figure:: ../Images/User/CustomFrames.jpg
    :alt: Custom frames for content elements
@@ -94,15 +94,15 @@ curly brackets within the editor (`see example <https://www.pizpalue.buechler.pr
 
 .. tip::
    You might reference other content as defined by the
-   `getText data type <https://docs.typo3.org/typo3cms/TyposcriptReference/DataTypes/Gettext/Index.html>`__.
+   `"getText" data type <https://docs.typo3.org/typo3cms/TyposcriptReference/DataTypes/Gettext/Index.html>`__.
 
 
 .. _user-flexContentWidth:
 
-Flexible Inhaltsbreite
+Flexible content width
 ======================
 
-To create content spanning the entire page width (´see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>`__)
+To create content spanning the entire page width (´see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>´__)
 one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
@@ -116,10 +116,11 @@ fix container" and "Full with container" grid elements:
 
    Container grid element
 
-To further customize the containers css-classes and a wrapping container might
-be defined in the "Plugin Options" section from the "General"-tab:
+.. tip::
+   To further customize the containers css-classes and a wrapping container might
+   be defined in the "Plugin Options" section from the "General"-tab:
 
-.. figure:: ../Images/User/ContentWidth_ContainerOptions.jpg
-   :alt: Container grid element plugin options
+   .. figure:: ../Images/User/ContentWidth_ContainerOptions.jpg
+      :alt: Container grid element plugin options
 
-   Container grid element plugin options
+      Container grid element plugin options
