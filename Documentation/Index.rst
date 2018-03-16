@@ -54,7 +54,6 @@ pizpalue
 **Table of Contents**
 
 .. toctree::
-	:hidden:
 	:maxdepth: 1
 
 	Introduction/Index
