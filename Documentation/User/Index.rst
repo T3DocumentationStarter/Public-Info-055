@@ -51,7 +51,7 @@ News
 ====
 
 For the news system a template "Image on top" is provided. It might be used to
-render the image on top of the text (`see example`<https://www.pizpalue.buechler.pro/das-plus/news/>__).
+render the image on top of the text (`see example<https://www.pizpalue.buechler.pro/das-plus/news/>`__).
 
 .. figure:: ../Images/User/News_Template_ImageOnTop.jpg
    :alt: News template to render image on top
@@ -64,7 +64,7 @@ render the image on top of the text (`see example`<https://www.pizpalue.buechler
 Custom frames
 =============
 
-Additional frames can be selected for content elements (`see example`<https://www.pizpalue.buechler.pro/das-plus/news/>__):
+Additional frames can be selected for content elements (`see example<https://www.pizpalue.buechler.pro/das-plus/news/>`__):
 
 .. figure:: ../Images/User/CustomFrames.jpg
    :alt: Custom frames for content elements
@@ -82,7 +82,7 @@ Inline localization
 
 Sometimes it might be handy to have a text used at different locations available
 in several languages. For this users might reference a translated text by using
-curly brackets within the editor (`see example`<https://www.pizpalue.buechler.pro/das-plus/lokalisierung/>__):
+curly brackets within the editor (`see example<https://www.pizpalue.buechler.pro/das-plus/lokalisierung/>`__):
 
 .. figure:: ../Images/User/InlineLocalization.jpg
    :alt: Use of localized text within the editor
@@ -91,7 +91,7 @@ curly brackets within the editor (`see example`<https://www.pizpalue.buechler.pr
 
 .. tip::
    You might reference other content as defined by the
-   `getText data type`<https://docs.typo3.org/typo3cms/TyposcriptReference/DataTypes/Gettext/Index.html>__.
+   `getText data type<https://docs.typo3.org/typo3cms/TyposcriptReference/DataTypes/Gettext/Index.html>`__.
 
 
 .. _user-flexContentWidth:
@@ -99,7 +99,7 @@ curly brackets within the editor (`see example`<https://www.pizpalue.buechler.pr
 Flexible Inhaltsbreite
 ======================
 
-To create content spanning the entire page width (´see example´<https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>__)
+To create content spanning the entire page width (´see example<https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>`__)
 one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
