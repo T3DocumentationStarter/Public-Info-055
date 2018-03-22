@@ -27,6 +27,3 @@ You might follow these steps to setup seo features:
    :alt: SEO related constants in "PIZPALUE CUSTOMER" category
 
    SEO related constants in "PIZPALUE CUSTOMER" category
-
-
-- the end
