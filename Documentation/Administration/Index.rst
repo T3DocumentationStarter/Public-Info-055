@@ -11,7 +11,7 @@ Administration
 Development
 -----------
 
-During development or maintenance phase to actions might be of interest:
+During development or maintenance phase two actions might be of interest:
 
 #. Show under construction page
 #. Enable code debugging
