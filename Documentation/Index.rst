@@ -55,3 +55,4 @@ Table of Contents
 	Introduction/Index
 	User/Index
 	Administration/Index
+	Configuration/Index
