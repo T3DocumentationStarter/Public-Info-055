@@ -48,6 +48,10 @@ web site.
 
    - Stanislas Rolland for sr_language_menu
 
+   - Patrick Broens for url_forwarding
+
+   - Alex Kellner for typoscript2ce
+
 
 .. _screenshots:
 

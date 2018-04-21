@@ -16,7 +16,7 @@ During development or maintenance phase two actions might be of interest:
 #. Show under construction page
 #. Enable code debugging
 
-To temporarily show an under construction page the page "In Arbeit" might be
+To temporarily show an under construction page the page "Baustelle" might be
 moved before the root page where the code debugging can be enabled by activating
 the debug mode in the "PIZPALUE: AGENCY" category from the constant editor.
 
@@ -38,6 +38,7 @@ PIZPALUE: GENERAL            A parameter in this category might be used for vari
 PIZPALUE: AGENCY             Everything related to the authority maintaining the site
 PIZPALUE: CUSTOMER           Main customer related parameters
 PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
+PIZPALUE: CUSTOMER SOCIAL    Definition from references to social networks
 PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
 ============================ ==================================================
 
