@@ -142,8 +142,22 @@ editor. The constant can be found in "PIZPALUE: Customer - Frame".
 .. note::
    This feature is using "position: fixed" which causes flickering in edge
    browsers. To correct the flickering "transform: translateZ(0)" is assigned to
-   the preceeding sibling container. This cancelles any fixed positioning in
+   the preceeding sibling container. This cancels any fixed positioning in
    the sibling container. The situation might be improved by assigning
    "transform: translateZ(0)" to the last content element in the preceeding
    sibling element. In any case the element having "transform: translateZ(0)"
-   assigne should be higher than the footer.
+   assigned should be higher than the footer.
+
+
+.. _usr-ppClasses
+
+Piz Palue classes
+=================
+
+============================= ==================================================
+Class                         Usage
+============================= ==================================================
+pp-label-dataprotection       Used in wrapper grid element to define a
+                              replacment text for a data protection notice check
+                              box (see contact page)
+============================= ==================================================
