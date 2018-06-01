@@ -61,6 +61,10 @@ overwritten with the following TS:
 
    lib.contentElement.settings.preload.images = 0
 
+
+Enable scroll animation
+~~~~~~~~~~~~~~~~~~~~~~~
+
 To enable the scroll animation for a certain page follow these steps:
 
 1. Create extension template for page

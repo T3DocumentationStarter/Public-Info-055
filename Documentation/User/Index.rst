@@ -158,7 +158,7 @@ page. Typically content elements are moved in from the side of the page.
 To use this feature follow these steps:
 
 1. Make sure the feature is enabled for the page where it is used (:ref:`see scroll animation configuration <config_scrollanimation>`)
-2. Select a "Custom scrollanimation" as a frame or specify the data attributes in the appearance tab from the content element
+2. Select a "Custom scroll animation" as a frame or specify the data attributes in the appearance tab from the content element
 
 .. figure:: ../Images/User/ScrollAnimation_Appearance.png
    :width: 500px
