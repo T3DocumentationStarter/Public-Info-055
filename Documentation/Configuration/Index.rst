@@ -61,6 +61,20 @@ overwritten with the following TS:
 
    lib.contentElement.settings.preload.images = 0
 
+To enable the scroll animation for a certain page follow these steps:
+
+1. Create extension template for page
+
+.. figure:: ../Images/Configuration/ScrollAnimation_ExtensionTemplate.png
+   :width: 500px
+   :alt: Create extension template for page
+
+2. Enable scroll animation in constant editor
+
+.. figure:: ../Images/Configuration/ScrollAnimation_ConstantEditor.png
+   :width: 500px
+   :alt: Enable scroll animation in constant editor
+
 
 .. _config_cookieconsent:
 
@@ -72,11 +86,11 @@ under "PIZPALUE: CUSTOMER"). As well a link to a privacy policy page can be set 
 
 Further configurations regarding the cookie dialog can be found und "PIZPALUE: CUSTOMER VARIOUS" in the constant editor.
 
-.. _info
+.. _info:
 For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
 element.
 
-.. _note
+.. _note:
 The cookie dialog is rendered with a partial. You might need to update your template by embedding
 
 .. code-block:: fluid
