@@ -31,6 +31,7 @@ This functionality has been added by introducing additional fields to the conten
 rendering accordingly. The new fields are available under the appearance tab in the "Attributes" palette.
 
 .. figure:: ../Images/User/ContentElementAttributes.jpg
+   :width: 500px
    :alt: Palette "Attributes" under the appearance tab in the content element form
 
    Palette "Attributes" under the appearance tab in the content element form
@@ -44,6 +45,7 @@ Grid elements
 The add new content element wizards shows a tab called "Grid Elements":
 
 .. figure:: ../Images/User/GridElements_Wizard.jpg
+   :width: 500px
    :alt: "Grid Elements"-tab in new content element wizard
 
    "Grid Elements"-tab in new content element wizard
@@ -123,7 +125,6 @@ one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
 .. figure:: ../Images/User/ContentWidth_PageAppearance.jpg
-   :max-width: 500px
    :alt: "Full width" page layout
 
    "Full width" page layout
