@@ -50,7 +50,7 @@ Parameter                                  Value
 Scroll animation
 ----------------
 
-The feature can be enabled in the constant editor (`PIZPALUE: CUSTOMER - Features <ScrollAnimation_ConstantEditor>`).
+The feature can be enabled in the constant editor (:ref:`PIZPALUE: CUSTOMER - Features <ScrollAnimation_ConstantEditor>`).
 
 Since this feature is based on the dimensions from the visible area and the content element problems might come up
 where the content element dimensions change upon scrolling, like it is the case with the lazy image loading feature.

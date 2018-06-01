@@ -123,7 +123,7 @@ one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
 .. figure:: ../Images/User/ContentWidth_PageAppearance.jpg
-   :width: 500px
+   :max-width: 500px
    :alt: "Full width" page layout
 
    "Full width" page layout
