@@ -18,9 +18,22 @@ the user experience.
 Please refere as well to the manual user section from the
 related extensions.
 
-This is a :ref:`test link <seo_>`
-This is a :ref:`test link <seo>`
 
+.. _ce-attributes:
+
+Attribute enhancement for content elements
+==========================================
+
+Sometimes it would be handy to directly alter attributes from a content element container: add an additional class,
+some inline style or additional attributes.
+
+This functionality has been added by introducing additional fields to the content element table and adapting the
+rendering accordingly. The new fields are available under the appearance tab in the "Attributes" palette.
+
+.. figure:: ../Images/User/ContentElementAttributes.jpg
+   :alt: Palette "Attributes" under the appearance tab in the content element form
+
+   Palette "Attributes" under the appearance tab in the content element form
 
 
 .. _user-bootstrap_grids:
@@ -130,7 +143,21 @@ fix container" and "Full with container" grid elements:
       Container grid element plugin options
 
 
-.. _usr-revealFooter
+.. _usr-scrollanimation:
+
+Scroll animation
+================
+
+The scroll animation feature allows to call further attention to content elements while the user is scrolling on the
+page. Typically content elements are moved in from the side of the page.
+
+To use this feature follow these steps:
+
+1. Make sure the feature is enabled (`see scroll animation configuration <config_scrollanimation>`)
+2. Make sure the feature is enabled (`see scroll animation configuration <config_scrollanimation_>`)
+
+
+.. _usr-revealFooter:
 
 Reveal footer
 =============
@@ -152,7 +179,7 @@ editor. The constant can be found in "PIZPALUE: Customer - Frame".
    assigned should be higher than the footer.
 
 
-.. _usr-ppClasses
+.. _usr-ppClasses:
 
 Piz Palue classes
 =================

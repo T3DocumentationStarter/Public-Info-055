@@ -6,7 +6,8 @@
 Configuration
 ==============
 
-.. _seo:
+
+.. _config_seo:
 
 SEO
 ---
@@ -28,7 +29,8 @@ You might follow these steps to setup seo features:
 
    SEO related constants in "PIZPALUE CUSTOMER" category
 
-.. _404:
+
+.. _config_404:
 
 404-Handling
 ------------
@@ -41,3 +43,42 @@ Parameter                                  Value
 [FE][pageNotFound_handling]                REDIRECT:https://www.pizpalue.buechler.pro/404/
 [FE][pageNotFound_handling_statheader]     HTTP/1.0 404 Not Found
 ========================================== ===================================================
+
+
+.. _config_scrollanimation:
+
+Scroll animation
+----------------
+
+The feature can be enabled in the constant editor (PIZPALUE: CUSTOMER - Features).
+
+Since this feature is based on the dimensions from the visible area and the content element problems might come up
+where the content element dimensions change upon scrolling, like it is the case with the lazy image loading feature.
+This is why the images are configured to be fully preloaded when the scroll animation feature is enabled. This might be
+overwritten with the following TS:
+
+.. code-block:: typoscript
+
+   lib.contentElement.settings.preload.images = 0
+
+
+.. _config_cookieconsent:
+
+Cookie consent
+--------------
+
+To show a cookie dialog the "Enable Cookie Consent"-parameter has to be set (available through the constant editor
+under "PIZPALUE: CUSTOMER"). As well a link to a privacy policy page can be set in the cookie dialog.
+
+Further configurations regarding the cookie dialog can be found und "PIZPALUE: CUSTOMER VARIOUS" in the constant editor.
+
+.. _info
+For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
+element.
+
+.. _note
+The cookie dialog is rendered with a partial. You might need to update your template by embedding
+
+.. code-block:: fluid
+
+   <f:render partial="Structure/CookieConsent" arguments="{_all}" />
