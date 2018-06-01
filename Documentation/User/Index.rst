@@ -123,11 +123,13 @@ one might use the "Full width" page layout in conjunction with the "Bootstrap
 fix container" and "Full with container" grid elements:
 
 .. figure:: ../Images/User/ContentWidth_PageAppearance.jpg
+   :width: 500px
    :alt: "Full width" page layout
 
    "Full width" page layout
 
 .. figure:: ../Images/User/ContentWidth_Container.jpg
+   :width: 500px
    :alt: Container grid element
 
    Container grid element
@@ -138,6 +140,7 @@ fix container" and "Full with container" grid elements:
    "General"-tab:
 
    .. figure:: ../Images/User/ContentWidth_ContainerOptions.jpg
+      :width: 500px
       :alt: Container grid element plugin options
 
       Container grid element plugin options
@@ -157,6 +160,7 @@ To use this feature follow these steps:
 2. Select a "Custom scrollanimation" as a frame or specify the data attributes in the appearance tab from the content element
 
 .. figure:: ../Images/User/ScrollAnimation_Appearance.png
+   :width: 500px
    :alt: Define the scroll animation either with a frame or withe data attributes
 
    Define the scroll animation either with a frame or withe data attributes
