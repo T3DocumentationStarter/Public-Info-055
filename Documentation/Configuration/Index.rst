@@ -7,6 +7,20 @@ Configuration
 ==============
 
 
+.. _installtool:
+
+Install tool
+------------
+
+Consider to review the below mentioned entries in the installtool.
+
+.. code-block:: php
+
+   $GLOBALS['TYPO3_CONF_VARS']['SYS']['ddmmyy'] = 'd.m.y';
+   $GLOBALS['TYPO3_CONF_VARS']['SYS']['hhmm'] = 'H:i';
+   $GLOBALS['TYPO3_CONF_VARS']['SYS']['phpTimeZone'] = 'Europe/Zurich';
+
+
 .. _config_seo:
 
 SEO
