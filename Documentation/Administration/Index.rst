@@ -50,4 +50,4 @@ PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
 
 
 .. _tip:
-For further configurations the related extension configurations might be adjusted.
+   For further configurations the related extension configurations might be adjusted.

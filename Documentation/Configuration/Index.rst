@@ -1,7 +1,7 @@
 .. include:: ../Includes.txt
 
 
-.. _configuration:
+.. _config:
 
 Configuration
 ==============
@@ -87,12 +87,12 @@ under "PIZPALUE: CUSTOMER"). As well a link to a privacy policy page can be set 
 Further configurations regarding the cookie dialog can be found und "PIZPALUE: CUSTOMER VARIOUS" in the constant editor.
 
 .. _info:
-For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
-element.
+   For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
+   element.
 
 .. _note:
-The cookie dialog is rendered with a partial. You might need to update your template by embedding
+   The cookie dialog is rendered with a partial. You might need to update your template by embedding
 
-.. code-block:: fluid
+.. code-block:: xml
 
    <f:render partial="Structure/CookieConsent" arguments="{_all}" />
