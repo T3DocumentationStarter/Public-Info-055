@@ -19,6 +19,7 @@ Please refere as well to the manual user section from the
 related extensions.
 
 This is a :ref:`test link <seo_>`
+This is a :ref:`test link <seo>`
 
 
 
