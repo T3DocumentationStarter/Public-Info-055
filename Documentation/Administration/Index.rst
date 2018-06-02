@@ -49,5 +49,5 @@ PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
    Constant editor
 
 
-.. _tip::
+.. tip::
    For further configurations the related extension configurations might be adjusted.
