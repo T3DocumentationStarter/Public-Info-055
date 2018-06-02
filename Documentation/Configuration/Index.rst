@@ -107,7 +107,7 @@ under "PIZPALUE: CUSTOMER"). As well a link to a privacy policy page can be set 
 
 Further configurations regarding the cookie dialog can be found und "PIZPALUE: CUSTOMER VARIOUS" in the constant editor.
 
-.. info::
+.. note::
    For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
    element.
 
