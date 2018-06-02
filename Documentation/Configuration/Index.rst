@@ -114,9 +114,9 @@ Further configurations regarding the cookie dialog can be found und "PIZPALUE: C
 .. note::
    The cookie dialog is rendered with a partial. You might need to update your template by embedding
 
-.. code-block:: xml
+   .. code-block:: xml
 
-   <f:render partial="Structure/CookieConsent" arguments="{_all}" />
+      <f:render partial="Structure/CookieConsent" arguments="{_all}" />
 
 
 .. _socialNetwork:
