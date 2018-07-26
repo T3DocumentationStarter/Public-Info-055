@@ -19,7 +19,7 @@ An example extension for that purpose is delivered and activated with the distri
 starting point.
 
 .. figure:: ../Images/Administration/Admin_Customize.jpg
-    :alt: Customize the distribution for customer projects
+   :alt: Customize the distribution for customer projects
 
    Customize the distribution for customer projects
 
