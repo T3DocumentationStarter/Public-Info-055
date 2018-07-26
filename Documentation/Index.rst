@@ -56,3 +56,4 @@ Table of Contents
 	User/Index
 	Administration/Index
 	Configuration/Index
+    Changelog/Index
