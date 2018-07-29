@@ -92,8 +92,8 @@ configurations from other extensions (e.g. user_customer) might be respected too
 
 .. note::
    In case you are updating from a version smaller than 8.3.6 the content from your web site might suddenly show bigger
-   margins on to and bottom from each grid element content element. To get the original appearance you might change the
-   frame setting for the related content element to use 'no frame'.
+   margins on top and bottom from each grid content element. To get the original appearance the frame setting for
+   related content element might be changed to use 'no frame'.
 
    .. figure:: ../Images/Administration/Admin_GridelementsRendering_NoFrame.jpg
       :alt: Frame property from content element
