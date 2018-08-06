@@ -23,9 +23,10 @@ User manual sections:
 .. toctree::
    :maxdepth: 2
 
-   User/Design
-   User/Animation
-   User/Various
+   Users Manual
+   Design
+   Animation
+   Various
 
 
 
