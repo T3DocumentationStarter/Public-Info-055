@@ -54,6 +54,8 @@ Table of Contents
 
    Introduction/Index
    User/Index
+   User/Design
+   User/Animation
    Administration/Index
    Configuration/Index
    Changelog/Index
