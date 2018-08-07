@@ -7,10 +7,9 @@
 Design
 ======
 
-The arrangement and appearance from content elements can be defined on different areas.
-
-The coarse structure is defined with the page layout where grid elements might further organize the content in columns,
-registers, and the like. The fine tuning can be done on a content element basis by altering the frame, attributes and
+The arrangement and appearance from content elements can be defined on different areas. The coarse structure is defined
+with the page layout where grid elements might further organize the content in columns, registers, and the like. Fine
+tuning can be done on a content element basis by altering the frame, attributes and
 background.
 
 
@@ -25,7 +24,7 @@ Page layout
 Flexible content width
 ----------------------
 
-To create content spanning the entire page width (`see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>`__)
+To create content spanning the entire page width (`see example <https://www.pizpalue.buechler.pro/das-plus/gestaltung/>`__)
 a "Full width" page layout in conjunction with the "Bootstrap fix container" and "Full with container" grid elements
 might be used:
 
