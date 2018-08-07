@@ -54,9 +54,9 @@ curly brackets within the editor (`see example <https://www.pizpalue.buechler.pr
 Piz Palue classes
 =================
 
-============================= =======================================================================
+============================= =============================================================================
 Class                         Usage
-============================= =======================================================================
+============================= =============================================================================
 pp-label-dataprotection       Used in wrapper grid element to define a replacement text for a data
                               protection notice check box (see contact page)
 pp-parent-height              Elements using this class will get the same height as their parent element
@@ -65,4 +65,12 @@ pp-row-child-height           Elements in a row using this class will have their
                               harmonized. Each child element will have the same height as its neighbour
                               element in an other column (all headers, all images, all Text blocks
                               have the same height).
-============================= =======================================================================
+pp-ce-background              Centers the background and sizes it to cover the area.
+pp-ce-bgfixed                 Fixes the background. The result is a parallax effect. Due to mobile devices
+                              not supporting this feature fully it is generally disabled on mobile devices.
+pp-ce-margin                  Applies a margin to the container
+pp-ce-padding                 Applies a padding to the container
+pp-ce-bgwhite70               Applies a white background with 70% opacity
+pp-ce-gray70                  Applies a gray background with 70% opacity
+pp-ce-bgblack70               Applies a black background with 70% opacity
+============================= =============================================================================

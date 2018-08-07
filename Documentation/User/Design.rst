@@ -7,20 +7,32 @@
 Design
 ======
 
+The arrangement and appearance from content elements can be defined on different areas.
 
-.. _user-flexContentWidth:
+The coarse structure is defined with the page layout where grid elements might further organize the content in columns,
+registers, and the like. The fine tuning can be done on a content element basis by altering the frame, attributes and
+background.
+
+
+.. _user-design-page:
+
+Page layout
+===========
+
+
+.. _user-design-flexContentWidth:
 
 Flexible content width
-======================
+----------------------
 
 To create content spanning the entire page width (`see example <https://www.pizpalue.buechler.pro/das-plus/flexible-inhaltsbreite/>`__)
-one might use the "Full width" page layout in conjunction with the "Bootstrap
-fix container" and "Full with container" grid elements:
+a "Full width" page layout in conjunction with the "Bootstrap fix container" and "Full with container" grid elements
+might be used:
 
 .. figure:: ../Images/User/ContentWidth_PageAppearance.jpg
-   :alt: "Full width" page layout
+   :alt: "Full width" page layouts
 
-   "Full width" page layout
+   "Full width" page layouts
 
 .. figure:: ../Images/User/ContentWidth_Container.jpg
    :width: 500px
@@ -40,7 +52,7 @@ fix container" and "Full with container" grid elements:
       Container grid element plugin options
 
 
-.. _user-bootstrap_grids:
+.. _user-design-gridelements:
 
 Grid elements
 =============
@@ -56,11 +68,15 @@ under the "Grid Elements" tab:
    "Grid Elements"-tab in new content element wizard
 
 
-.. _user-customframes:
+.. _user-design-contentElement:
 
+Content element
+===============
+
+.. _user-design-customframes:
 
 Custom frames
-=============
+-------------
 
 Additional frames can be selected for content elements (`see example <https://www.pizpalue.buechler.pro/das-plus/gestaltung/rahmen/>`__):
 
@@ -69,24 +85,23 @@ Additional frames can be selected for content elements (`see example <https://ww
 
    Custom frames for content elements
 
-As for the time beeing the custom animations (Custom animation 1..3) aren't
-implemented yet.
+As for the time being the custom animations (Custom animation 1..3) aren't implemented yet.
 
 
-.. _ce-attributes:
+.. _user-design-attributes_background:
 
-Attribute enhancement for content elements
-==========================================
+Attributes and background for content elements
+----------------------------------------------
 
-Sometimes it would be handy to directly alter attributes from a content element container: add an additional class,
-some inline style or additional attributes.
+Sometimes it would be handy to directly alter attributes and assign a background image to content elements.
 
 This functionality has been added by introducing additional fields to the content element table and adapting the
-rendering accordingly. The new fields are available under the appearance tab in the "Attributes" palette.
+rendering accordingly. The new fields are available under the appearance tab in the "Attributes" and "Background"
+palette.
 
-.. figure:: ../Images/User/ContentElementAttributes.jpg
+.. figure:: ../Images/User/ContentElement_Appearance.jpg
    :width: 500px
-   :alt: Palette "Attributes" under the appearance tab in the content element form
+   :alt: Palette "Attributes" and "Background" under the appearance tab in the content element form
 
-   Palette "Attributes" under the appearance tab in the content element form
+   Palette "Attributes" and "Background" under the appearance tab in the content element form
 
