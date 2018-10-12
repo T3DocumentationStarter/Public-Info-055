@@ -12,7 +12,7 @@ Releases
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Release: 8.6.0 (3.10.2018) <8.6.0>
    8.5.0
