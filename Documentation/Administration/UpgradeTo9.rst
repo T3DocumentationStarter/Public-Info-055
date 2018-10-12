@@ -56,10 +56,5 @@ Review
 ======
 
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   Introduction/Index
 
 

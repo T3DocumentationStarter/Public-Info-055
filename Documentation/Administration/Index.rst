@@ -120,3 +120,8 @@ To provide an RSS feed the following steps could be followed:
 
 
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   UpgradeTo9
