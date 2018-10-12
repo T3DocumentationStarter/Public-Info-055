@@ -52,8 +52,9 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   Introduction/Index
+   INTRO - Um was gehts <Introduction/Index>
    User/Index
    Administration/Index
    Configuration/Index
    Changelog/Index
+   Latest Changelog <Changelog/8.6.0>
