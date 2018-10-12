@@ -6,10 +6,15 @@
 Changelog
 =========
 
-The project changes can be looked up at `Github <https://github.com/buechlerpro/typo3-pizpalue/blob/master/CHANGELOG.md>`__.
+The project changes can as well be looked up at `Github <https://github.com/buepro/typo3-pizpalue/commits/master>`__.
 
 Releases
 --------
 
-* :file:`Release 8.6.0 <8.6.0.md>`
-* :file:`Release 8.5.0 <8.5.0.md>`
+.. toctree::
+   :maxdepth: 1
+
+   Release: 8.6.0 (3.10.2018) <8.6.0>
+   8.5.0
+   8.4.0
+   8.3.4

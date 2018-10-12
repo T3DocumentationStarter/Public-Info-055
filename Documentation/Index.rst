@@ -57,4 +57,3 @@ Table of Contents
    Administration/Index
    Configuration/Index
    Changelog/Index
-   Changelog/8.3.4
