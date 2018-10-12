@@ -10,7 +10,7 @@ The project changes can be looked up at `Github <https://github.com/buechlerpro/
 
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
-   8.6.0
+   8.6.0.md
    8.5.0
