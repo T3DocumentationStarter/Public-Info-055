@@ -31,6 +31,18 @@ its update button available through the extension manager.
    Distribution update button
 
 
+.. _admin_upgrade:
+
+Upgrade
+=======
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   UpgradeTo9
+
+
 .. _admin_customization:
 
 Customization
@@ -119,9 +131,3 @@ To provide an RSS feed the following steps could be followed:
    `chesio/rss_display <https://github.com/chesio/rss_display/tree/enclosure-view-helper>`__ provides one.
 
 
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   UpgradeTo9
