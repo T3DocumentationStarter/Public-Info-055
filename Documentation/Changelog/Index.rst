@@ -11,9 +11,5 @@ The project changes can be looked up at `Github <https://github.com/buechlerpro/
 Releases
 --------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Table of Contents
-
-   Release 8.6.0 <8.6.0.md>
-   Release 8.5.0 <8.5.0.md>
+- :ref:`Release 8.6.0 <8.6.0.md>`
+- :ref:`Release 8.5.0 <8.5.0.md>`
