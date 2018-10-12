@@ -51,10 +51,11 @@ Table of Contents
 =================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Introduction/Index
    User/Index
    Administration/Index
+   Administration/UpgradeTo9.rst
    Configuration/Index
    Changelog/Index
