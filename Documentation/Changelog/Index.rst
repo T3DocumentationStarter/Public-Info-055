@@ -10,7 +10,8 @@ The project changes can be looked up at `Github <https://github.com/buechlerpro/
 
 
 .. toctree::
-   :hidden:
+   :maxdepth: 2
+   :caption: Table of Contents
 
-   8.6.0.md
-   8.5.0
+   Release 8.6.0 <8.6.0>
+   Release 8.5.0 <8.5.0.md>
