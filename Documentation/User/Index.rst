@@ -4,7 +4,7 @@
 .. _user-manual:
 
 ============
-Users Manual
+Users manual
 ============
 
 The content appearance consists of design and animation aspects where design is mainly concerned about
