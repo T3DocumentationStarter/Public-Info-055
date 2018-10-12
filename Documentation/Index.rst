@@ -56,6 +56,5 @@ Table of Contents
    Introduction/Index
    User/Index
    Administration/Index
-   Administration/UpgradeTo9.rst
    Configuration/Index
    Changelog/Index
