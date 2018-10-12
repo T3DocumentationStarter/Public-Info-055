@@ -3,14 +3,15 @@
 
 .. _configuration:
 
+=============
 Configuration
-==============
+=============
 
 
 .. _config_installtool:
 
 Install tool
-------------
+============
 
 Consider to review the below mentioned entries in the installtool.
 
@@ -25,7 +26,7 @@ Consider to review the below mentioned entries in the installtool.
 .. _config_seo:
 
 SEO
----
+===
 
 You might follow these steps to setup seo features:
 
@@ -48,7 +49,7 @@ You might follow these steps to setup seo features:
 .. _config_404:
 
 404-Handling
-------------
+============
 
 The 404-handling can be configured in the install tool. An example configuration might look as following:
 
@@ -63,7 +64,7 @@ Parameter                                  Value
 .. _config_scrollanimation:
 
 Scroll animation
-----------------
+================
 
 The feature can be enabled in the constant editor (:ref:`PIZPALUE: CUSTOMER - Features <config_ScrollAnimation_ConstantEditor>`).
 
@@ -78,7 +79,7 @@ overwritten with the following TS:
 
 
 Enable scroll animation
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 To enable the scroll animation for a certain page follow these steps:
 
@@ -100,7 +101,7 @@ To enable the scroll animation for a certain page follow these steps:
 .. _config_cookieconsent:
 
 Cookie consent
---------------
+==============
 
 To show a cookie dialog the "Enable Cookie Consent"-parameter has to be set (available through the constant editor
 under "PIZPALUE: CUSTOMER"). As well a link to a privacy policy page can be set in the cookie dialog.
@@ -122,7 +123,7 @@ Further configurations regarding the cookie dialog can be found und "PIZPALUE: C
 .. _socialNetwork:
 
 Social networks
----------------
+===============
 
 Links to social networks can easyly be embedded by using the string ###SocialNetwork###
 some where in a content element.

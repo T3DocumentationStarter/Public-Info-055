@@ -3,6 +3,7 @@
 
 .. _administration:
 
+==============
 Administration
 ==============
 
@@ -10,7 +11,7 @@ Administration
 .. _admin_installation:
 
 Installation
-------------
+============
 
 The distribution can be installed from within the distribution list, by uploading the extension and through composer.
 Refer to TYPO3 documentation for further details on handling extensions.
@@ -19,7 +20,7 @@ Refer to TYPO3 documentation for further details on handling extensions.
 .. _admin_update:
 
 Update
-------
+======
 
 If a newer version from this distribution is installed its update script should be executed. It can be started through
 its update button available through the extension manager.
@@ -33,7 +34,7 @@ its update button available through the extension manager.
 .. _admin_customization:
 
 Customization
--------------
+=============
 
 The suggested way to customize the distribution for customer projects is to create an extension (e.g. user_customer)
 and define the customer theme and functions in it (`see TYPO3 documentation
@@ -60,7 +61,7 @@ To uninstall the extension the dependency in the file ext_emconf.php needs to be
 .. _admin_development:
 
 Development
------------
+===========
 
 During development or maintenance phase two actions might be of interest:
 
@@ -75,7 +76,7 @@ the debug mode in the "PIZPALUE: AGENCY" category from the constant editor.
 .. _admin_configuration:
 
 Configuration
--------------
+=============
 
 Many aspects from the web site can be configured through the constant editor.
 
@@ -86,7 +87,7 @@ are available:
 Category                     Description
 ============================ ==================================================
 PIZPALUE: ADMIN              Everything related to the site administration
-PIZPALUE: CUSTOMER           Main customer related parameters
+PIZPALUE: CUSTOMER BASE      Main customer related parameters
 PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
 PIZPALUE: CUSTOMER SOCIAL    Definition from references to social networks
 PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
@@ -103,7 +104,7 @@ PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
 .. _admin_rss_feed:
 
 RSS Feed
---------
+========
 
 To provide an RSS feed the following steps could be followed:
 
