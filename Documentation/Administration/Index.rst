@@ -37,8 +37,7 @@ Upgrade
 =======
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
 
    UpgradeTo9
 
