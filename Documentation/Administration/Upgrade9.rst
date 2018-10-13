@@ -48,10 +48,16 @@ Upgrading the distribution from earlier versions (e.g. the PP_8-6 branch) includ
 Prepare
 =======
 
+-  Backup the data (files and data base)
+-  Consider using the gridelements from the distribution instead of the ones provided by the extension bootstrap_grids.
+   The distribution won't support the extension bootstrap_grids in the near future any more.
 
 Upgrade
 =======
 
+-  Uninstall the distribution pizpalue as well as the extensions realurl, dd_googlesitemap, bootstrap_grids
+-  Install the bootstrap_package (version 10.x.x)
+-  Install the distribution pizpalue (version 9.x.x)
 
 Review
 ======
