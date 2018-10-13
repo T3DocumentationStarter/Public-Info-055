@@ -16,6 +16,8 @@ Since the preprocessor parser provided by the bootstrap_package doesn't substitu
 requires some manual intervention.
 
 
+.. _administration_upgrade_bottstrap4_reviewConstants:
+
 Review constants
 ================
 

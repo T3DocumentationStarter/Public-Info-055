@@ -56,7 +56,23 @@ Upgrade
 Review
 ======
 
+Constants
+---------
+
+Review constants listed in :ref:`"Upgrade to Bootstrap 4"<administration_upgrade_bottstrap4_reviewConstants>`.
+
+Social network
+--------------
+
+The social network feature has been replaced by the one provided by the bootstrap_package. To update the social network
+embedding follow these steps:
+
+#. Remove the block mark **###SocialNetwork###** in the content element.
+#. Add a "Social Links" content element from the "Social Media" tab.
+#. Configure the content through the constant editor, category "BOOTSTRAP PACKAGE: SOCIAL MEDIA"
+
 Cookie consent
 --------------
 
-
+Fonts
+-----
