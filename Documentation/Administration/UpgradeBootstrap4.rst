@@ -39,11 +39,11 @@ Subcategory "colors"
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
-*brand-primary                            primary*
-brand-secundary                           *secondary*
-brand-complementary                       *complementary*
+*brand-primary*                           *primary*
+*brand-secundary*                         *secondary*
+*brand-complementary*                     *complementary*
 body-bg                                   body-bg
-navbar-default-bg                         *navbar-light-bg*
+*navbar-default-bg*                       *navbar-light-bg*
 footer-bg                                 footer-bg
 ========================================= =========================================
 
@@ -65,13 +65,13 @@ Subcategory "colors"
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
-navbar-default-link-color                 *navbar-light-color*
-navbar-default-link-hover-color           *navbar-light-hover-color*
-navbar-default-link-hover-bg              *navbar-light-hover-bg*
-navbar-default-link-active-color          *navbar-light-active-color*
-navbar-default-link-active-bg             *navbar-light-active-bg*
-navbar-default-link-disabled-color        *navbar-light-disabled-color*
-navbar-default-link-disabled-bg           *navbar-light-disabled-bg*
+*navbar-default-link-color*               *navbar-light-color*
+*navbar-default-link-hover-color*         *navbar-light-hover-color*
+*navbar-default-link-hover-bg*            *navbar-light-hover-bg*
+*navbar-default-link-active-color*        *navbar-light-active-color*
+*navbar-default-link-active-bg*           *navbar-light-active-bg*
+*navbar-default-link-disabled-color*      *navbar-light-disabled-color*
+*navbar-default-link-disabled-bg*         *navbar-light-disabled-bg*
 footer-color                              footer-color
 footer-link-color                         footer-link-color
 footer-link-hover-color                   footer-link-hover-color
