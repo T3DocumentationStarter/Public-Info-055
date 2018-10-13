@@ -36,10 +36,13 @@ its update button available through the extension manager.
 Upgrade
 =======
 
-.. toctree::
-   :maxdepth: 1
+The following upgrade descriptions are available:
 
-   UpgradeTo9
+.. toctree::
+   :maxdepth: 2
+
+   UpgradeBootstrap4
+   Upgrade9
 
 
 .. _admin_customization:

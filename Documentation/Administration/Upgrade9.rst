@@ -1,5 +1,6 @@
 .. include:: ../Includes.txt
 
+.. _administration_upgrade_9:
 
 ======================
 Upgrade to version 9.0
@@ -55,6 +56,7 @@ Upgrade
 Review
 ======
 
-
+Cookie consent
+--------------
 
 
