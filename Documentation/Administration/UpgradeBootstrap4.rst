@@ -36,7 +36,7 @@ Category "customer base" - Subcategory "colors"
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
-brand-primary                             *primary*
+*brand-primary                            primary*
 brand-secundary                           *secondary*
 brand-complementary                       *complementary*
 body-bg                                   body-bg
@@ -45,7 +45,7 @@ footer-bg                                 footer-bg
 ========================================= =========================================
 
 Category "customer style" - Subcategory "colors"
------------------------------------------------
+------------------------------------------------
 
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
