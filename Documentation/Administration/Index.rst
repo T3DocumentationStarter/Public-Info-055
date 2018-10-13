@@ -103,7 +103,6 @@ Category                     Description
 PIZPALUE: ADMIN              Everything related to the site administration
 PIZPALUE: CUSTOMER BASE      Main customer related parameters
 PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
-PIZPALUE: CUSTOMER SOCIAL    Definition from references to social networks
 PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
 PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
 ============================ ==================================================
@@ -112,7 +111,18 @@ PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
 .. figure:: ../Images/Administration/Configuration_ConstantEditor.jpg
    :alt: Constant editor
 
-   Constant editor
+
+The following 3rd party constant categories might be of interest too:
+
+================================ ==================================================
+Category                         Description
+================================ ==================================================
+BOOTSTRAP PACKAGE: SOCIAL MEDIA  Definition from references to social networks
+================================ ==================================================
+
+
+.. note::
+   Most extensions provide their own configurations. For more detailed configurations consult the related manual.
 
 
 .. _admin_rss_feed:
