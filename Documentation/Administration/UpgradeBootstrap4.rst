@@ -21,10 +21,20 @@ Review constants
 
 The following table lists all the bootstrap constants used by the distribution that might need to be reviewed:
 
+Namespace
+---------
+
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
 (plugin.bootstrap_package.settings.less)  (plugin.bootstrap_package.settings.scss)
+========================================= =========================================
+
+Category "customer base" - Subcategory "colors"
+-----------------------------------------------
+
+========================================= =========================================
+Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
 brand-primary                             *primary*
 brand-secundary                           *secondary*
@@ -32,6 +42,13 @@ brand-complementary                       *complementary*
 body-bg                                   body-bg
 navbar-default-bg                         *navbar-light-bg*
 footer-bg                                 footer-bg
+========================================= =========================================
+
+Category "customer style" - Subcategory "colors"
+-----------------------------------------------
+
+========================================= =========================================
+Bootstrap 3                               Bootstrap 4
 ========================================= =========================================
 navbar-default-link-color                 *navbar-light-color*
 navbar-default-link-hover-color           *navbar-light-hover-color*
@@ -48,7 +65,12 @@ pp-tab-v1-background                      pp-tab-v1-background
 pp-tab-v1-active-background               pp-tab-v1-active-background
 pp-tab-v1-border-color                    pp-tab-v1-border-color
 ========================================= =========================================
+
+Subcategory "frame"
+-------------------
+
+========================================= =========================================
+Bootstrap 3                               Bootstrap 4
+========================================= =========================================
 navbar-height                             navbar-height
-======================================== ========================================
-
-
+========================================= =========================================
