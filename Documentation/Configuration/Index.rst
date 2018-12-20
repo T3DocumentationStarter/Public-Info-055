@@ -137,6 +137,10 @@ This feature is is enabled by default. It allows to animate content elements whi
 Use the constant editor to disable the feature (category "PIZPALUE: CUSTOMER BASE - Features") or configure it
 further (category "PIZPALUE: CUSTOMER VARIOUS - Animation").
 
+Four preconfigured animations are available in the animation dropdown menu from the appearance tab in the content
+element properties dialog. Those animations might be configured as well in the constant editor (category "PIZPALUE:
+CUSTOMER VARIOUS - Animation").
+
 
 .. _config_cookieconsent:
 
