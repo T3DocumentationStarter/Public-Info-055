@@ -77,11 +77,11 @@ Basic upgrade procedure (using Bootstrap 3.x (LESS)
 
 .. note::
    The correct order for the static templates is:
-   #. Bottstrap Package related templates
-   #. Extension related templates
-   #. Pizpalue related templates starting with "Pizpalue - Main"
-   #. Customization related templates
-   #. Pizpalue - Gridelements rendering
+      #. Bottstrap Package related templates
+      #. Extension related templates
+      #. Pizpalue related templates starting with "Pizpalue - Main"
+      #. Customization related templates
+      #. Pizpalue - Gridelements rendering
 
 
 Upgrade bootstrap (using Bootstrap 4.x (SCSS)

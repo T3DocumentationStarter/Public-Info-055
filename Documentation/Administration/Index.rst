@@ -25,7 +25,7 @@ Update
 If a newer version from this distribution is installed its update script should be executed. It can be started through
 the update button available in the extension manager.
 
-.. figure:: ../Images/Administration/Admin_Update.jpg
+.. figure:: ../Images/Administration/Update.jpg
    :alt: Distribution update button
 
    Distribution update button
@@ -41,8 +41,8 @@ The following upgrade descriptions are available:
 .. toctree::
    :maxdepth: 2
 
-   UpgradeBootstrap4
    Upgrade9
+   UpgradeBootstrap4
 
 
 .. _admin_customization:
@@ -57,7 +57,7 @@ and define the customer theme and functions in it (`see TYPO3 documentation
 An example extension for that purpose is delivered and activated with the distribution. You might use it as your
 starting point.
 
-.. figure:: ../Images/Administration/Admin_Customize.jpg
+.. figure:: ../Images/Administration/Customize.jpg
    :alt: Customize the distribution for customer projects
 
    Customize the distribution for customer projects
@@ -65,9 +65,10 @@ starting point.
 The extension might be deactivated by removing its static template or uninstalling it.
 
 .. note::
-   During installation from the distribution a sample extension "user_customer" will be installed. This is achieved
+   While installing the distribution a sample extension "user_customer" is being installed too. This is achieved
    by adding an extension dependency to the ext_emconf.php file. By finalizing the installation this dependency is
-   removed (commented) to allow the extension "user_customer" to be uninstalled.
+   removed (commented) to enable the extension "user_customer" being uninstalled with the distribution remaining
+   installed.
 
 
 .. _admin_development:
@@ -82,36 +83,6 @@ During development or maintenance phase two actions might be of interest:
 
 To temporarily show an under construction page an url redirection might be created to the page "In Arbeit" and the code
 debugging might be enabled by activating the debug mode in the "PIZPALUE: AGENCY" category from the constant editor.
-
-
-.. _admin_configuration:
-
-Configuration
-=============
-
-Many aspects from the web site can be configured through the constant editor.
-
-To ease configuration parameters were grouped. The following main categories
-are available:
-
-============================ =========================================================
-Category                     Description
-============================ =========================================================
-PIZPALUE: ADMIN              Everything related to the site administration
-PIZPALUE: CUSTOMER BASE      Main customer related parameters
-PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
-PIZPALUE: CUSTOMER SOCIAL    More detailed customer social network related parameters
-PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
-PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
-============================ =========================================================
-
-
-.. figure:: ../Images/Administration/Configuration_ConstantEditor.jpg
-   :alt: Constant editor
-
-
-.. note::
-   Most extensions provide their own configurations. For more detailed configurations consult the related manual.
 
 
 .. _admin_news_rss_feed:

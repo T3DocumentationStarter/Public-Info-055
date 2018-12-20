@@ -54,7 +54,7 @@ Table of Contents
    :maxdepth: 2
 
    Introduction/Index
-   User/Index
    Administration/Index
    Configuration/Index
+   User/Index
    Changelog/Index
