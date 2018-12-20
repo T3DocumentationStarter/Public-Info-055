@@ -23,7 +23,7 @@ Update
 ======
 
 If a newer version from this distribution is installed its update script should be executed. It can be started through
-its update button available through the extension manager.
+the update button available in the extension manager.
 
 .. figure:: ../Images/Administration/Admin_Update.jpg
    :alt: Distribution update button
@@ -62,14 +62,12 @@ starting point.
 
    Customize the distribution for customer projects
 
-The extension might be deactivated by removing its static template.
+The extension might be deactivated by removing its static template or uninstalling it.
 
-To uninstall the extension the dependency in the file ext_emconf.php needs to be removed.
-
-.. figure:: ../Images/Administration/Admin_CustomizeUninstall.jpg
-   :alt: Remove or mark as comment the dependency to the extension user_customer
-
-   Remove or mark as comment the dependency to the extension user_customer
+.. note::
+   During installation from the distribution a sample extension "user_customer" will be installed. This is achieved
+   by adding an extension dependency to the ext_emconf.php file. By finalizing the installation this dependency is
+   removed (commented) to allow the extension "user_customer" to be uninstalled.
 
 
 .. _admin_development:
@@ -82,9 +80,8 @@ During development or maintenance phase two actions might be of interest:
 #. Show under construction page
 #. Enable code debugging
 
-To temporarily show an under construction page the page "Baustelle" might be
-moved before the root page where the code debugging can be enabled by activating
-the debug mode in the "PIZPALUE: AGENCY" category from the constant editor.
+To temporarily show an under construction page an url redirection might be created to the page "In Arbeit" and the code
+debugging might be enabled by activating the debug mode in the "PIZPALUE: AGENCY" category from the constant editor.
 
 
 .. _admin_configuration:
@@ -97,38 +94,30 @@ Many aspects from the web site can be configured through the constant editor.
 To ease configuration parameters were grouped. The following main categories
 are available:
 
-============================ ==================================================
+============================ =========================================================
 Category                     Description
-============================ ==================================================
+============================ =========================================================
 PIZPALUE: ADMIN              Everything related to the site administration
 PIZPALUE: CUSTOMER BASE      Main customer related parameters
 PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
+PIZPALUE: CUSTOMER SOCIAL    More detailed customer social network related parameters
 PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
 PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
-============================ ==================================================
+============================ =========================================================
 
 
 .. figure:: ../Images/Administration/Configuration_ConstantEditor.jpg
    :alt: Constant editor
 
 
-The following 3rd party constant categories might be of interest too:
-
-================================ ==================================================
-Category                         Description
-================================ ==================================================
-BOOTSTRAP PACKAGE: SOCIAL MEDIA  Definition from references to social networks
-================================ ==================================================
-
-
 .. note::
    Most extensions provide their own configurations. For more detailed configurations consult the related manual.
 
 
-.. _admin_rss_feed:
+.. _admin_news_rss_feed:
 
-RSS Feed
-========
+News RSS Feed
+=============
 
 To provide an RSS feed the following steps could be followed:
 

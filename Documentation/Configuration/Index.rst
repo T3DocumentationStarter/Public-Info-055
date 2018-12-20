@@ -21,6 +21,11 @@ Consider to review the below mentioned entries in the installtool.
    $GLOBALS['TYPO3_CONF_VARS']['SYS']['hhmm'] = 'H:i';
    $GLOBALS['TYPO3_CONF_VARS']['SYS']['phpTimeZone'] = 'Europe/Zurich';
    $GLOBALS['TYPO3_CONF_VARS']['SYS']['systemLocale'] = 'de_CH.utf8';
+   $GLOBALS['TYPO3_CONF_VARS']['BE']['lockSSL'] = true;
+
+.. tip::
+   The above mentioned configurations might be part from the file "typo3conf/AdditionalConfiguration.php".
+   A sample file is provided in the directory "typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles".
 
 
 .. _config_seo:
@@ -28,9 +33,13 @@ Consider to review the below mentioned entries in the installtool.
 SEO
 ===
 
+In case TYPO3 version 8LTS is used the extensions realurl, dd_googlesitemap and url_forwarding might be installed.
+
+TYPO3 version 8LTS
+------------------
+
 You might follow these steps to setup seo features:
 
-#. Install `extension realurl <https://extensions.typo3.org/extension/realurl/>`__
 #. Verify 404-handling. You might need to adjust configurations by help of the install tool (e.g. pageNotFound_handling).
 #. Review sitemap by adding `?eID=dd_googlesitemap <https://www.pizpalue.buechler.pro/?eID=dd_googlesitemap>`__ to the domain
 #. Review seo tags like title-tag and description meta-tag
@@ -120,20 +129,15 @@ Further configurations regarding the cookie dialog can be found und "PIZPALUE: C
       <f:render partial="Structure/CookieConsent" arguments="{_all}" />
 
 
-.. _socialNetwork:
+.. _config_appIcons:
 
-Social networks
-===============
+App icons
+=========
 
-Links to social networks can easyly be embedded by using the string ###SocialNetwork###
-some where in a content element.
+In case just a simple favicon is required it can be specified in the category "PIZPALUE - CUSTOMER BASE" from the
+constants editor.
 
-By default the `"Font Awesome" <https://fontawesome.com/>`__ library is used for
-this purpose. This library provides an extensive icon set. Even the `TYPO3 logo
-<https://fontawesome.com/icons?d=gallery&q=typo3>`__ is available.
-
-Many icons are as well available with the `Ionicon library <https://ionicons.com/>`__
-provided by the bootstrap_package. Unfortunatly the TYPO3-icon as well as the
-Xing-icon are missing. In case those icons aren't needed the "Font Awesome"
-library might be disabled to gain page load speed. The related parameter can be
-found under the "Features" section in the constant editor selecting "PIZPALUE: CUSTOMER".
+To get an app icon set for all major platforms the resources might be generated at the
+`"Favicon generator" <https://realfavicongenerator.net/>`__ website. The resulting resources need to be copied to the
+server web directory and the header data assigned to the related field in the app icon section in the category
+"PIZPALUE - CUSTOMER BASE" from the constants editor.

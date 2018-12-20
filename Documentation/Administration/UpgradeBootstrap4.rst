@@ -16,6 +16,15 @@ Since the preprocessor parser provided by the bootstrap_package doesn't substitu
 requires some manual intervention.
 
 
+.. _administration_upgrade_bottstrap4_staticTemplates:
+
+Static templates
+================
+
+Remove the static templates "Bootstrap Package: Bootstrap 3.x (LESS)", "Pizpalue - Bootstrap 3.x (LESS)" as well as
+all extensions that might use Less-constants (e.g. user_customer).
+
+
 .. _administration_upgrade_bottstrap4_reviewConstants:
 
 Review constants
@@ -36,7 +45,7 @@ Category "customer base"
 ------------------------
 
 Subcategory "colors"
-....................
+~~~~~~~~~~~~~~~~~~~~
 
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
@@ -50,7 +59,7 @@ footer-bg                                 footer-bg
 ========================================= =========================================
 
 Subcategory "frame"
-...................
+~~~~~~~~~~~~~~~~~~~
 
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
@@ -62,7 +71,7 @@ Category "customer style"
 -------------------------
 
 Subcategory "colors"
-....................
+~~~~~~~~~~~~~~~~~~~~
 
 ========================================= =========================================
 Bootstrap 3                               Bootstrap 4
@@ -83,3 +92,10 @@ pp-tab-v1-active-background               pp-tab-v1-active-background
 pp-tab-v1-border-color                    pp-tab-v1-border-color
 ========================================= =========================================
 
+
+.. _administration_upgrade_bottstrap4_adaptCustomerAdjustments:
+
+Adapt customer related adjustments
+==================================
+
+In case customer adjustments were using Less they need to be converted to CSS or Scss.
