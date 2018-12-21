@@ -102,7 +102,7 @@ TYPO3 version 9LTS
 
 You might follow these steps to setup seo features:
 
-#. Create a `site<https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/SiteHandling/Index.html>`__ (a sample
+#. Create a `site <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/SiteHandling/Index.html>`__ (a sample
    configuration file can be found in the directory
    typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles)
 
@@ -132,7 +132,8 @@ To register the website at Google follow these steps:
 Scroll animation
 ================
 
-This feature is is enabled by default. It allows to animate content elements while the page is being scrolled.
+This feature is using the `AOS-library <http://michalsnik.github.io/aos/>`__ and is enabled by default. It allows to
+animate content elements while the page is being scrolled.
 
 Use the constant editor to disable the feature (category "PIZPALUE: CUSTOMER BASE - Features") or configure it
 further (category "PIZPALUE: CUSTOMER VARIOUS - Animation").

@@ -80,7 +80,7 @@ Basic upgrade procedure (using Bootstrap 3.x (LESS)
       #. Bottstrap Package related templates
       #. Extension related templates
       #. Pizpalue related templates starting with "Pizpalue - Main"
-      #. Customization related templates
+      #. Customization related templates (e.g. from user_customer)
       #. Pizpalue - Gridelements rendering
 
 
