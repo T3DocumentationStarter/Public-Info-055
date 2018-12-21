@@ -62,7 +62,8 @@ appearance tab.
 Custom frames
 -------------
 
-Additional frames can be selected for content elements (`see example <https://www.pizpalue.buechler.pro/das-plus/gestaltung/rahmen/>`__):
+Additional frames can be selected for content elements
+(`see example <https://www.pizpalue.buechler.pro/das-plus/gestaltung/rahmen/>`__):
 
 .. figure:: ../Images/User/CustomFrames.jpg
    :alt: Custom frames for content elements
@@ -88,15 +89,6 @@ The distribution is embedding a background image by adding an inline style defin
 selected the content is wrapped allowing always to have a background image.
 
 
-.. _user-design-animation:
-
-Animation
----------
-
-Four predefined animations might be assigned to a content element. They can be further customized by help of the
-`constant editor <_config_scrollanimation>`__.
-
-
 .. _user-design-attributes:
 
 Attributes
@@ -115,7 +107,8 @@ rendering accordingly. The new fields are available under the appearance tab in 
    Customizing attributes for a content element
 
 Some predefined classes and attributes can be assigned by help of the adjacent selector box. The selector box for
-the "Additional attributes" field shows data attributes related to the `scroll animation <_config_scrollanimation>`__.
+the "Additional attributes" field shows data attributes related to the
+:ref:`scroll animation <config_scrollanimation>`.
 
 .. note::
    For security reasons all attributes are filtered. Currently just data attributes are allowed in the "Additional
