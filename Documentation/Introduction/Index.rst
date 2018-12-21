@@ -20,7 +20,7 @@ Selected third party extensions further improve the user experience. As a result
 the content might be flexibly arranged in columns, registers or accordions where images
 might be presented in galleries or sliders.
 
-Discover the functionality at the `demo site <https://www.pizpalue.buechler.pro/>`__.
+Discover the functionality by browsing through the `demo site <https://www.pizpalue.buechler.pro/>`__.
 
 Take advantage from the strong TYPO3 community and go for a flexible and independent
 web site.
