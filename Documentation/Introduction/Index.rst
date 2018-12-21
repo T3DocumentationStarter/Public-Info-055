@@ -63,7 +63,7 @@ Landing page
 Structure elements
 ------------------
 
-`See example <https://pizpalue9.buechler.pro/das-plus/strukturemente>`__
+`See example <https://www.pizpalue.buechler.pro/das-plus/strukturemente>`__
 
 .. figure:: ../Images/Introduction/PizPalue_FlexContentWidthPage.jpg
    :width: 500px

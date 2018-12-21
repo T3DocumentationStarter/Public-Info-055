@@ -57,8 +57,8 @@ Upgrading
 
 .. _upgrade9_basic_upgrade_procedure:
 
-Basic upgrade procedure (using Bootstrap 3.x (LESS)
----------------------------------------------------
+Basic upgrade procedure (using Bootstrap 3.x (LESS))
+----------------------------------------------------
 
 -  If the extension user_customer is present uninstall it and remove the dependencies to extension pizpalue and
    bootstrap_package in the file typo3conf/ext/user_customer/ext_emconf.php (to avoid recursive calls during installing
@@ -84,8 +84,8 @@ Basic upgrade procedure (using Bootstrap 3.x (LESS)
       #. Pizpalue - Gridelements rendering
 
 
-Upgrade bootstrap (using Bootstrap 4.x (SCSS)
----------------------------------------------
+Upgrade bootstrap (using Bootstrap 4.x (SCSS))
+----------------------------------------------
 
 Upgrading bootstrap isn't required. To use bootstrap 4 follow these steps:
 
@@ -115,7 +115,7 @@ embedding follow these steps:
 
 #. Remove the block mark **###SocialNetwork###** in the content element.
 #. Add a "Social Links" content element from the "Social Media" tab.
-#. Configure the content through the constant editor, category "BOOTSTRAP PACKAGE: SOCIAL MEDIA"
+#. Configure the content through the constant editor, category "PIZPALUE: CUSTOMER SOCIAL"
 
 
 Various
