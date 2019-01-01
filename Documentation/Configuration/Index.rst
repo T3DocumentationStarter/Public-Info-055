@@ -28,10 +28,10 @@ Consider to review the below mentioned entries in the installtool.
    A sample file is provided in the directory "typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/".
 
 
-.. _config_site:
+.. _config_siteConfiguration:
 
-Site
-====
+Site configuration
+==================
 
 With TYPO3 V9 site configuration has been introduced.
 
