@@ -25,7 +25,19 @@ Consider to review the below mentioned entries in the installtool.
 
 .. tip::
    The above mentioned configurations might be part from the file "typo3conf/AdditionalConfiguration.php".
-   A sample file is provided in the directory "typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles".
+   A sample file is provided in the directory "typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/".
+
+
+.. _config_site:
+
+Site
+====
+
+With TYPO3 V9 site configuration has been introduced.
+
+The distribution ships with a default site configuration file located in
+"typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/", named "Sites_config.yaml". In case
+the folder "typo3conf/sites/" doesn't exist the default site configuration file will be added upon installation.
 
 
 .. _config_constantEditor:

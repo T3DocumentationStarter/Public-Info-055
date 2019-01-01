@@ -65,10 +65,9 @@ starting point.
 The extension might be deactivated by removing its static template or uninstalling it.
 
 .. note::
-   While installing the distribution a sample extension "user_customer" is being installed too. This is achieved
-   by adding an extension dependency to the ext_emconf.php file. By finalizing the installation this dependency is
-   removed (commented) to enable the extension "user_customer" being uninstalled with the distribution remaining
-   installed.
+   The sample extension "user_customer" is being installed by adding an extension dependency to the ext_emconf.php file.
+   By finalizing the installation this dependency is removed (commented) to enable the extension "user_customer" being
+   uninstalled with the distribution remaining installed.
 
 
 .. _admin_development:

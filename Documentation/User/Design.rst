@@ -71,7 +71,7 @@ Additional frames can be selected for content elements
    Custom frames for content elements
 
 .. note::
-   The custom frame 4 doesn't have any style definition. You might use it for further customization.
+   The custom frame 4 doesn't have any style definition. You might use it according your needs.
 
 
 .. _user-design-background:
