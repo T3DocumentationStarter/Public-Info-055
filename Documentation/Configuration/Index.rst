@@ -40,13 +40,15 @@ The distribution ships with a default site configuration file located in
 the folder "typo3conf/sites/" doesn't exist the default site configuration file will be added upon installation.
 
 .. code-block:: yaml
-   errorContentSource: 't3://page?uid=87'
+
+   errorContentSource: 't3://page?uid=87' #change this: the number after "uid=" reflects the uid from the 404-page
 
 .. note::
    You might need to adjust the settings for the "Error Handling" as well as for the extension "news" by editing
    the configuration file (typo3conf/sites/default/config.yaml). Have a look at the following
 
    .. code-block:: yaml
+
       routeEnhancers:
          NewsPluginDetail:
             type: Extbase
@@ -54,6 +56,7 @@ the folder "typo3conf/sites/" doesn't exist the default site configuration file 
                - 95 #change this: the number reflects the uid from the news detail page
 
    .. code-block:: yaml
+
       routeEnhancers:
          #...
          NewsPluginList:
