@@ -39,6 +39,28 @@ The distribution ships with a default site configuration file located in
 "typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/", named "Sites_config.yaml". In case
 the folder "typo3conf/sites/" doesn't exist the default site configuration file will be added upon installation.
 
+.. note::
+   You might need to adjust the settings for the "Error Handling" as well as for the extension "news" by editing
+   the configuration file (typo3conf/sites/default/config.yaml). Have a look at the following
+
+   .. code-block:: yaml
+      errorContentSource: 't3://page?uid=**87**'
+
+   .. code-block:: yaml
+      routeEnhancers:
+         NewsPluginDetail:
+            type: Extbase
+            limitToPages:
+               - **95**
+
+   .. code-block:: yaml
+      routeEnhancers:
+         ...
+         NewsPluginList:
+            type: Extbase
+            limitToPages:
+               - **96**
+
 
 .. _config_constantEditor:
 
