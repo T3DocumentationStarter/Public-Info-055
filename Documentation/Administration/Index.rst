@@ -16,6 +16,10 @@ Installation
 The distribution can be installed from within the distribution list, by uploading the extension and through composer.
 Refer to TYPO3 documentation for further details on handling extensions.
 
+.. note::
+   In case an error message regarding cache with extension news comes up during installation you might install the
+   extension news prior installing this distribution.
+
 
 .. _admin_update:
 
