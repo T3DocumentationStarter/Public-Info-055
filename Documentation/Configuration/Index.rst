@@ -43,23 +43,23 @@ the folder "typo3conf/sites/" doesn't exist the default site configuration file 
    You might need to adjust the settings for the "Error Handling" as well as for the extension "news" by editing
    the configuration file (typo3conf/sites/default/config.yaml). Have a look at the following
 
-   .. code-block::
-      errorContentSource: 't3://page?uid=**87**'
+   .. code-block:: yaml
+      errorContentSource: 't3://page?uid=87' // change the uid=x
 
-   .. code-block::
+   .. code-block:: yaml
       routeEnhancers:
          NewsPluginDetail:
             type: Extbase
             limitToPages:
-               - **95**
+               - 95 // change this: the number reflects the uid from the news detail page
 
-   .. code-block::
+   .. code-block:: yaml
       routeEnhancers:
          ...
          NewsPluginList:
             type: Extbase
             limitToPages:
-               - **96**
+               - 96 // change this: the number reflects the uid from the news list page
 
 
 .. _config_constantEditor:
