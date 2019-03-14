@@ -6,7 +6,7 @@
 Extension tt_address
 ====================
 
-.. _administration_ttaddress_common_setup
+.. _admin_ttaddress_common_setup:
 
 Common setup steps
 ===================
@@ -37,7 +37,7 @@ This package adds a Google map showing the selected addresses.
 Setup
 -----
 
-Carry out the :ref:`common setup steps <administration_ttaddress_common_setup>`.
+Carry out the :ref:`common setup steps <admin_ttaddress_common_setup>`.
 
 .. figure:: ../Images/Administration/TtAddress/GoogleMap/DisplayMode.jpg
    :width: 500px
@@ -128,7 +128,7 @@ This package provides a teaser showing random address item as flip cards.
 Setup
 -----
 
-Carry out the :ref:`common setup steps <administration_ttaddress_common_setup>`.
+Carry out the :ref:`common setup steps <admin_ttaddress_common_setup>`.
 
 .. figure:: ../Images/Administration/TtAddress/Teaser/DisplayMode.jpg
    :width: 500px
