@@ -21,8 +21,7 @@ might be carried out:
 #. Uninstall all extensions
 #. Upgrade TYPO3
 #. Download the zipped version from Pizpalue from Github
-#. Delete the file :file:`../Initialisation/data.xml` as well as the folder
-:file:`../Initialisation/data.xml.files`
+#. Delete the file :file:`../Initialisation/data.xml` as well as the folder :file:`../Initialisation/data.xml.files`
 #. Upload the extension to the server
 #. Install the extension
 #. Include statics for root template
