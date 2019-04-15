@@ -2,9 +2,9 @@
 
 .. _faq_configuration:
 
-=================
-FAQ Configuration
-=================
+=============
+Configuration
+=============
 
 Layout/Design/Theme
 ===================

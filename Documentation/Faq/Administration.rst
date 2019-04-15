@@ -2,9 +2,9 @@
 
 .. _faq_administration:
 
-==================
-FAQ Administration
-==================
+==============
+Administration
+==============
 
 Upgrade
 =======
