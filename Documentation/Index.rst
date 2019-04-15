@@ -58,4 +58,4 @@ Table of Contents
    Configuration/Index
    User/Index
    Changelog/Index
-   FAQ/Index
+   Faq/Index
