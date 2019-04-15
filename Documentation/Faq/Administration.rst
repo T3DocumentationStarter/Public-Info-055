@@ -22,7 +22,7 @@ might be carried out:
 #. Upgrade TYPO3
 #. Download the zipped version from Pizpalue from Github
 #. Delete the file :file:`../Initialisation/data.xml` as well as the folder :file:`../Initialisation/data.xml.files`
-#. Upload the extension to the server
-#. Install the extension
-#. Include statics for root template
-#. Include Page TS config on root page (page properties - Resources)
+#. Upload the extension directory to the server
+#. Install the extension pizpalue in the extension manager
+#. Include pizpalue "Include static (from extensions)" on root template
+#. Include pizpalue "Page TS config" on root page (page properties - Resources)
