@@ -7,7 +7,7 @@
 Fastmenu
 ========
 
-By enabling the fastmenu a icon menu is shown on the right page border.
+By enabling the fastmenu an icon menu is shown on the right page border.
 
 The menu items can be associated with a page or a content. In case a content is referenced it will be shown beside
 the menu.
