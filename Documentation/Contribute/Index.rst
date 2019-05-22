@@ -30,13 +30,13 @@ Examples
 
 .. code-block:: scss
 
-   pp-demo-item {
+   .pp-demo-item {
       border: blue 1px solid;
       &.ppc-right {
          border-right: green 3px solid;
       }
    }
 
-In the above example the class :css:`ppc-right` complements the class :css:`pp-demo-item`. The complementing classes
-help to be more specific and less exhaustive (alternatively to :css:`ppc-right` one might have used
-:css:`pp-demo-item-right`). They should only be used in the context of other classes.
+In the above example the class :scss:`ppc-right` complements the class :scss:`pp-demo-item`. The complementing classes
+help to be more specific and less exhaustive (alternatively to :scss:`ppc-right` one might have used
+:scss:`pp-demo-item-right`). They should only be used in the context of other classes.
