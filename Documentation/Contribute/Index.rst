@@ -37,6 +37,6 @@ Examples
       }
    }
 
-In the above example the class ::`ppc-right` complements the class ::`pp-demo-item`. The complementing classes
-help to be more specific and less exhaustive (alternatively to ::`ppc-right` one might have used
-::`pp-demo-item-right`). They should only be used in the context of other classes.
+In the above example the class `ppc-right` complements the class `pp-demo-item`. The complementing classes
+help to be more specific and less exhaustive (alternatively to `ppc-right` one might have used
+`pp-demo-item-right`). They should only be used in the context of other classes.
