@@ -25,7 +25,7 @@ PIZPALUE:CUSTOMER STYLE      To define colors
 .. note::
    The amount of menu items can be adjusted through TS. To add a new item the following code might be used.
 
-   .. codeblock::
+   .. code-block:: typoscript
 
       pizpalue.menu.fast.items {
          newItem {

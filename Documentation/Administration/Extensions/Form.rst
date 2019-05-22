@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 .. _administration_form:
 
@@ -9,11 +9,11 @@ Extension form
 .. _administration_form_emailfinisher:
 
 Email finisher
-=============
+==============
 
 The email finisher from the form extension has been extended to provide data from the finisher to the fluid template.
 As a result the array "finisherOptions" holds the elements senderName, senderAddress, recipientName, recipientAddress
-and subject. To add the sender name to the fluid template use :ts:`{finisherOptions.senderName}`.
+and subject. To add the sender name to the fluid template use :typoscript:`{finisherOptions.senderName}`.
 
 
 .. _administration_form_mailtosystem:
@@ -26,7 +26,7 @@ might be to send plaintext emails from the web site to a system processing the d
 
 To customize the content being sent a template can be created and referenced to as following:
 
-.. codeblock::
+.. code-block:: yaml
 finishers:
    ...
    -
