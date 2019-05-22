@@ -85,14 +85,14 @@ Data consent
 ------------
 
 Currently there isn't a form element available providing a checkbox with a label linking to an other page.
-To customize such a label the classes :css:`pp-label-dataprotection` and :css:`pp-dataprotection` were introduced.
+To customize such a label the classes :scss:`pp-label-dataprotection` and :scss:`pp-dataprotection` were introduced.
 
 How to use it:
 
 1. Create a content element with the text to be assigned to the checkbox and assign the class
-   :css:`pp-label-dataprotection` to it.
+   :scss:`pp-label-dataprotection` to it.
 
-2. In the form definition assign the class :css:`pp-dataprotection` to the checkbox:
+2. In the form definition assign the class :scss:`pp-dataprotection` to the checkbox:
 
    .. code-block:: yaml
 
