@@ -36,8 +36,11 @@ Site configuration
 With TYPO3 V9 site configuration has been introduced.
 
 The distribution ships with a default site configuration file located in
-"typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/", named "Sites_config.yaml". In case
-the folder "typo3conf/sites/" doesn't exist the default site configuration file will be added upon installation.
+"typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/sites". In case
+the folder "typo3conf/sites/pizpalue" doesn't the default site configuration file will be added to that directory
+upon installation.
+
+Copying of the default site configuration might be disabled in the extension configuration found in the settings module.
 
 .. note::
    You might need to adjust the settings for the "Error Handling" as well as for the extension "news" by editing
@@ -82,7 +85,7 @@ PIZPALUE: ADMIN              Everything related to the site administration
 PIZPALUE: CUSTOMER BASE      Main customer related parameters
 PIZPALUE: CUSTOMER STYLE     More detailed customer style related parameters
 PIZPALUE: CUSTOMER SOCIAL    More detailed customer social network related parameters
-PIZPALUE: CUSTOMER VARIOUS   More detailed customer related parameters
+PIZPALUE: CUSTOMER EXTENDED  More detailed customer related parameters
 PIZPALUE: CUSTOMER PLUGINS   More detailed plugin related parameters
 ============================ =========================================================
 
@@ -141,7 +144,7 @@ You might follow these steps to setup seo features:
 
 #. Create a `site <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/SiteHandling/Index.html>`__ (a sample
    configuration file can be found in the directory
-   typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles)
+   typo3conf/ext/pizpalue/Resources/Private/FolderStructureTemplateFiles/sites)
 
 
 .. _config_google:
@@ -173,11 +176,11 @@ This feature is using the `AOS-library <http://michalsnik.github.io/aos/>`__ and
 animate content elements while the page is being scrolled.
 
 Use the constant editor to disable the feature (category "PIZPALUE: CUSTOMER BASE - Features") or configure it
-further (category "PIZPALUE: CUSTOMER VARIOUS - Animation").
+further (category "PIZPALUE: CUSTOMER EXTENDED - Animation").
 
 Four preconfigured animations are available in the animation dropdown menu from the appearance tab in the content
 element properties dialog. Those animations might be configured as well in the constant editor (category "PIZPALUE:
-CUSTOMER VARIOUS - Animation").
+CUSTOMER EXTENDED - Animation").
 
 
 .. _config_cookieconsent:
@@ -189,7 +192,7 @@ To show a cookie dialog the "Enable Cookie Consent"-parameter has to be set (con
 CUSTOMER BASE - Cookie consent"). As well a link to a privacy policy page can be set for the cookie dialog.
 
 Further configurations regarding the cookie dialog can be found in the constant editor by selecting the category
-"PIZPALUE: CUSTOMER VARIOUS" under the section "Cookie consent".
+"PIZPALUE: CUSTOMER EXTENDED" under the section "Cookie consent".
 
 .. note::
    For Google Analytics a control block can be embedded by using the string ###GoogleAnalyticsStatus### in a content
