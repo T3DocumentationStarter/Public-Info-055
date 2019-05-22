@@ -1,12 +1,41 @@
 .. include:: ../../Includes.txt
 
-.. _administration_form:
+.. _admin_form:
 
 ==============
 Extension form
 ==============
 
-.. _administration_form_emailfinisher:
+
+.. _admin_dataconsent:
+
+Data consent
+============
+
+Currently there isn't a form element available providing a checkbox with a label linking to an other page.
+To customize such a label the classes `pp-label-dataprotection` and `pp-dataprotection` were introduced.
+
+How to use it:
+
+1. Create a content element with the text to be assigned to the checkbox and assign the class
+   `pp-label-dataprotection` to it.
+
+2. In the form definition assign the class `pp-dataprotection` to the checkbox:
+
+   .. code-block:: yaml
+
+      type: Checkbox
+      identifier: privacy
+      label: Datenschutzvereinbarung
+      properties:
+         containerClassAttribute: 'custom-control custom-checkbox pp-dataprotection'
+
+.. note::
+
+   You might have a loo to the contact form (yaml definition and content element) to see how it could be done.
+
+
+.. _admin_form_emailfinisher:
 
 Email finisher
 ==============
@@ -16,7 +45,7 @@ As a result the array "finisherOptions" holds the elements senderName, senderAdd
 and subject. To add the sender name to the fluid template use :typoscript:`{finisherOptions.senderName}`.
 
 
-.. _administration_form_mailtosystem:
+.. _admin_form_mailtosystem:
 
 Mail to system form finisher
 ============================

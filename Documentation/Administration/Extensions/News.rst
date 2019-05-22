@@ -1,6 +1,6 @@
 .. include:: ../../Includes.txt
 
-.. _administration_news:
+.. _admin_news:
 
 ==============
 Extension news
