@@ -27,24 +27,25 @@ might be to send plaintext emails from the web site to a system processing the d
 To customize the content being sent a template can be created and referenced to as following:
 
 .. code-block:: yaml
-finishers:
-   ...
-   -
-   options:
-      subject: Subject for CRM
-      recipientAddress: info@domain.com
-      recipientName: 'CRM Admin'
-      senderAddress: sender@domain.com
-      senderName: 'Web Admin'
-      replyToAddress: ''
-      carbonCopyAddress: ''
-      blindCarbonCopyAddress: ''
-      format: plaintext
-      attachUploads: false
-      templateRootPaths:
-         30: 'EXT:user_customer/Resources/Private/Templates/Form/Finishers/MailToSystem/'
-   -
-   ...
+
+   finishers:
+      ...
+      -
+      options:
+         subject: Subject for CRM
+         recipientAddress: info@domain.com
+         recipientName: 'CRM Admin'
+         senderAddress: sender@domain.com
+         senderName: 'Web Admin'
+         replyToAddress: ''
+         carbonCopyAddress: ''
+         blindCarbonCopyAddress: ''
+         format: plaintext
+         attachUploads: false
+         templateRootPaths:
+            30: 'EXT:user_customer/Resources/Private/Templates/Form/Finishers/MailToSystem/'
+      -
+      ...
 
 .. note::
    The customized template might be started off by using the template found under

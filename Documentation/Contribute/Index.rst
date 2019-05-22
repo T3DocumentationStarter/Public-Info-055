@@ -28,7 +28,8 @@ Examples
 
 **SCSS**
 
-.. code-block:: css
+.. code-block:: scss
+
    pp-demo-item {
       border: blue 1px solid;
       &.ppc-right {
