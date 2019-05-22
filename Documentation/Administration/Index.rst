@@ -100,7 +100,7 @@ How to use it:
    identifier: privacy
    label: Datenschutzvereinbarung
    properties:
-     containerClassAttribute: 'custom-control custom-checkbox pp-dataprotection'
+      containerClassAttribute: 'custom-control custom-checkbox pp-dataprotection'
 
 .. note::
    You might have a loo to the contact form (yaml definition and content element) to see how it could be done.
